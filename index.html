@@ -4,11 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Brawler's Quest</title>
-    <link rel="stylesheet" href="styles.css">
+    <!-- <link rel="stylesheet" href="styles.css"> -->
     <style>
-        /*hr {color:sienna;}
-        p {margin-left:20px;}
-        body {background-image:url("bg.jpg");}*/
+    /*body {
+        width: 100%;
+        background: url('bg.jpg') no-repeat;
+        background-size: 100% auto;
+        padding-top: 13%;
+    }
+    body:before{content: ""; display: block; padding-top: 100%;}*/
+    * {
+            margin: 0px;
+            padding: 0px;
+    }
+    .game-desc img {
+        width: 100%;
+        display: block;
+        vertical-align: middle;  
+    }
     </style>
 </head>
 <!-- Google tag (gtag.js) -->
@@ -20,33 +33,27 @@
   gtag('config', 'G-0LYRKV6ETS');
 </script>
 <body>
-    <div class="msg_desc">
-    <img style="max-width:100%;overflow:hidden;" src="bg.jpg" alt="">
-    </div>
-    <!-- <header>
-        <h1>欢迎来到神奇的三消游戏世界！</h1>
-        <p>加入我们，体验刺激有趣的三消游戏！</p>
+    <header>
+        <!-- <h1>欢迎来到神奇的三消游戏世界！</h1>
+        <p>加入我们，体验刺激有趣的三消游戏！</p> -->
     </header>
     
     <section id="game-info">
-        <h2>游戏特色</h2>
-        <ul>
-            <li>多彩多样的关卡设计</li>
-            <li>丰富有趣的游戏道具</li>
-            <li>简单易上手，老少皆宜</li>
-        </ul>
+        <div class="game-desc">
+            <img src="bg.jpg">
+        </div>
     </section>
     
     <section id="download">
-        <h2>立即下载</h2>
+        <!-- <h2>立即下载</h2>
         <p>点击下面的按钮，立即加入三消游戏的世界！</p>
-        <button id="download-button">下载游戏</button>
+        <button id="download-button">下载游戏</button> -->
     </section>
     
-    <footer>
+    <!-- <footer>
         <p>&copy; 2023 上海石零与网络科技有限公司. All rights reserved.</p>
-    </footer>
+    </footer> -->
 
-    <script src="script.js"></script> -->
+    <!-- <script src="script.js"></script> -->
 </body>
 </html>
